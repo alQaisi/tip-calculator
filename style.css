@@ -59,6 +59,12 @@ label{
     position: relative;
     left:5px;
     top:7px;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 .tibBtn,.input input,.reset{
     font-family: 'Space Mono', monospace;
