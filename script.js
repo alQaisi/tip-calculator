@@ -45,7 +45,6 @@ function focusOut(evt){
     }
 }
 function selectTib(evt){
-    console.log(10)
     if (selectedTib!=undefined )
         selectedTib.classList.toggle('selected');
     evt.target.classList.add('selected');
@@ -99,11 +98,9 @@ function calculate(){
         resTxt[1].textContent=`$${total}`;
         reset.classList.remove('disabled');
         reset.classList.add('enabled');
-        console.log(tibAmount,total);
     }
 }
 function resetFunc(){
-    console.log('reset')
     bill.value="0";
     pplNum.value="0";
     values={
